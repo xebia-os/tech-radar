@@ -57,7 +57,7 @@ function renderVisualization(entries) {
             grid: "#bbb",
             inactive: "#ddd"
         },
-        title: "Xebia Tech Radar",
+        title: "Xebia Tech Radar - 2020.10",
         quadrants: [
             { name: "Infrastructure & Platform" },
             { name: "Data Management" },
@@ -65,10 +65,10 @@ function renderVisualization(entries) {
             { name: "Frameworks" }
         ],
         rings: [
-            { name: "ADOPT", color: "#93c47d" },
-            { name: "ASSESS", color: "#b7e1cd" },
-            { name: "TRIAL", color: "#fce8b2" },
-            { name: "HOLD", color: "#f4c7c3" }
+            { name: "ADOPT", color: "#799351" },
+            { name: "ASSESS", color: "#ebdc87" },
+            { name: "TRIAL", color: "#ffa36c" },
+            { name: "HOLD", color: "#d54062" }
         ],
         print_layout: true,
         entries: entries
