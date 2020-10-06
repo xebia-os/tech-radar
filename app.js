@@ -66,8 +66,8 @@ function renderVisualization(entries) {
         ],
         rings: [
             { name: "ADOPT", color: "#799351" },
-            { name: "ASSESS", color: "#ebdc87" },
-            { name: "TRIAL", color: "#ffa36c" },
+            { name: "TRIAL", color: "#ebdc87" },
+            { name: "ASSESS", color: "#ffa36c" },
             { name: "HOLD", color: "#d54062" }
         ],
         print_layout: true,
