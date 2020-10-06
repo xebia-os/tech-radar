@@ -37,9 +37,9 @@ function getQuadrant(q) {
 function getRing(r) {
     if (r === 'Adopt') {
         return 0;
-    } else if (r === 'Assess') {
-        return 1;
     } else if (r === 'Trial') {
+        return 1;
+    } else if (r === 'Assess') {
         return 2;
     } else {
         return 3;
