@@ -24,9 +24,9 @@ function getQuadrant(q) {
     } else if (q === 'Frameworks') {
         return 3;
     } else if (q === 'Data Management') {
-        return 0;
-    } else if (q === 'Platform') {
         return 1;
+    } else if (q === 'Platform') {
+        return 0;
     }else{
         console.log('Unable to find ',q);
         return 5;
