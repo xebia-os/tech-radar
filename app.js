@@ -9,7 +9,7 @@ function init() {
                 "label": d.name,
                 "quadrant": getQuadrant(d.quadrant),
                 "ring": getRing(d.ring),
-                "link": 'https://github.com/xebia-os/tech-radar/blob/fetaure/add-topic-description/2020.10.md#java-8',
+                "link": d.link,
                 "moved": 0
             }
         })
