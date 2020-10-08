@@ -9,6 +9,7 @@ function init() {
                 "label": d.name,
                 "quadrant": getQuadrant(d.quadrant),
                 "ring": getRing(d.ring),
+                "link": d.link,
                 "moved": 0
             }
         })
@@ -74,4 +75,3 @@ function renderVisualization(entries) {
         entries: entries
     });
 }
-
