@@ -20,13 +20,14 @@ function init() {
 window.addEventListener('DOMContentLoaded', init)
 
 function getQuadrant(q) {
-    if (q === 'Languages') {
+    q = q.trim();
+    if (q === 'Languages & Frameworks') {
         return 2;
-    } else if (q === 'Frameworks') {
+    } else if (q === 'Tools and Techniques') {
         return 3;
     } else if (q === 'Data Management') {
         return 1;
-    } else if (q === 'Platform') {
+    } else if (q === 'Infrastructure & Platform') {
         return 0;
     }else{
         console.log('Unable to find ',q);
@@ -62,8 +63,8 @@ function renderVisualization(entries) {
         quadrants: [
             { name: "Infrastructure & Platform" },
             { name: "Data Management" },
-            { name: "Languages" },
-            { name: "Frameworks" }
+            { name: "Languages & Frameworks" },
+            { name: "Tools and Techniques" }
         ],
         rings: [
             { name: "ADOPT", color: "#799351" },
